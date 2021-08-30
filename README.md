@@ -7,6 +7,6 @@ Run ``gen_syn_2d.ipynb`` to generate 2d simulated data.
 
 Run ``demo1.ipynb`` and ``demo2.ipynb`` for multi-trial GPLVM fit to the simulated data. You will recover the latent and reconstruct the firing rates. 
 
-``demo2.ipynb`` consists of ``demo1.ipynb`` and a second stage. The first stage (same as ``demo1.ipynb``) estimates latent and model parameters with the naive model assumption. The second stage is a fine-tune of latent and model parameters with user-specified model assumption. 
+``demo2.ipynb`` consists of ``demo1.ipynb`` and a second stage. The first stage (same as ``demo1.ipynb``) estimates latent and model parameters with the naive model assumption. The second stage is a fine-tune of latent and model parameters with the user-specified model assumption. 
 
-Model details can be found in the notebooks.
+More details can be found in the notebooks.
