@@ -10,3 +10,6 @@ Run ``demo1.ipynb`` and ``demo2.ipynb`` for multi-trial GPLVM fit to the simulat
 ``demo2.ipynb`` consists of ``demo1.ipynb`` and a second stage. The first stage (same as ``demo1.ipynb``) estimates latent and model parameters with the naive model assumption. The second stage is a fine-tune of latent and model parameters with the user-specified model assumption. 
 
 More details can be found in the notebooks.
+
+All required packages are included in olfactory.yml. You can install a conda env via
+``conda env create -f olfactory.yml``
